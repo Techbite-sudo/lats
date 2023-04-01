@@ -1,5 +1,5 @@
 
-## About App QR Code-based Exam Attendance System using Laravel 9
+## This APP is QRCode-based Lecture Exam Attendance Tracking System using Laravel 9
 
 The code is a site to add exams and register students' attendance through a special code generated from their university Registration Number.
 
