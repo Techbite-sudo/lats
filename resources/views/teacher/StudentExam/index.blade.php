@@ -30,7 +30,7 @@
                             <div class="modal fade" id="studentExams" data-bs-backdrop="static" data-bs-keyboard="false"
                                 tabindex="-1" aria-labelledby="studentExamsLabel" aria-hidden="true">
                                 <div class="modal-dialog">
-                                    <div class="modal-content">
+                                    <div class="modal-content bg-info">
                                         <div class="modal-header">
                                             <h5 class="modal-title" id="studentExamsLabel">Student Exam Info</h5>
                                         </div>
@@ -39,7 +39,7 @@
                                                 <input class="id form-control" type="hidden" id="id" name="id">
                                                 <div class="row mb-3">
                                                     <div class="col-md-10 m-auto">
-                                                        <small class="fs-6 text-muted">Student Name</small>
+                                                        <small class="fs-6 text-dark"><b>Student Name</b></small>
                                                         <select name="student_id" id="student_id" size="4"
                                                             class="student_id form-control shadow-none rounded-0">
                                                             @foreach ($students as $student)
@@ -53,7 +53,7 @@
                                                 </div>
                                                 <div class="row mb-3">
                                                     <div class="col-md-10 m-auto">
-                                                        <small class="fs-6 text-muted">Exame Name</small>
+                                                        <small class="fs-6 text-dark"><b>Exame Name</b></small>
                                                         <select name="exam_id" id="exam_id" size="4"
                                                             class="exam_id form-control shadow-none rounded-0">
                                                             @foreach ($examsAll as $exam)
@@ -72,7 +72,7 @@
                                             <button type="button"
                                                 class="addExamStudent rounded-0 shadow-none btn btn-primary">{{ __('Add New student Exam') }}</button>
                                             <button type="button"
-                                                class="updateExamStudent rounded-0 shadow-none btn btn-info">{{ __('Update student Exam') }}</button>
+                                                class="updateExamStudent rounded-0 shadow-none btn btn-success">{{ __('Update student Exam') }}</button>
                                         </div>
                                     </div>
                                 </div>

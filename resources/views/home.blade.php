@@ -1,4 +1,3 @@
-@vite(['resources/css/app.css','resources/js/app.js'])
 @extends('layouts.app')
 
 @section('content')
@@ -6,7 +5,7 @@
     @if (Auth::user()->role == 'Administrator')
     <div class="row justify-content-center">
         <div class="col-md-12">
-            <div class="card border-0 shadow-lg">
+            <div class="card bg-info border-0 shadow-lg">
                 <div class="card-header border-0 bg-transparent mb-2 fs-2 text-primary lead">
                     <div class="d-flex justify-content-between">
                         <span>{{ __('Users Information') }}</span>
@@ -52,7 +51,7 @@
                                             <i class="fa-solid fa-trash"></i>
                                         </a>
                                         <a href="{{ route('users.edit', ['id' => $user->id]) }}" class="btn btn-outline-info shadow-none rounded-circle">
-                                            <i class="fa-solid fa-pen-to-square"></i>
+                                            <i class='fa-solid fa-pen-to-square' style='color: blue'></i>
                                         </a>
                                     </td>
                                 </tr>

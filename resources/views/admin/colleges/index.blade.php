@@ -18,12 +18,12 @@
                 <div class="card border-0 shadow-lg">
                     <div class="card-header border-0 bg-transparent mb-2 fs-2 text-primary lead">
                         <div class="d-flex justify-content-between">
-                            <span>{{ __('Colleges') }}</span>
+                            <span>{{ __('Universities') }}</span>
                             <!-- Button trigger modal -->
                             <button type="button" class="btn btn-primary rounded-0 shadow-none ms-auto"
                                 data-bs-toggle="modal" data-bs-target="#CollegeAddModal">
                                 <span class="me-2"><i class="fa-solid fa-square-plus"></i></span>
-                                {{ __('Add New College') }}
+                                {{ __('Add New University') }}
                             </button>
                         </div>
 
@@ -33,7 +33,7 @@
                             <div class="modal-dialog">
                                 <div class="modal-content rounded-0 shadow-lg">
                                     <div class="modal-header bg-transparent border-0">
-                                        <h5 class="modal-title" id="CollegeAddModalLabel">Add New College</h5>
+                                        <h5 class="modal-title" id="CollegeAddModalLabel">Add New University</h5>
                                         <button type="button" class="btn shadow-none rounded-0 btn-danger"
                                             data-bs-dismiss="modal"><i class="fa-solid fa-xmark"></i></button>
                                     </div>
@@ -53,7 +53,7 @@
                                     </div>
                                     <div class="modal-footer bg-transparent border-0">
                                         <button type="submit" class="addCollege btn btn-primary rounded-0 shadow-none">
-                                            {{ __('Add New College') }}
+                                            {{ __('Add New University') }}
                                         </button>
                                         </form>
                                     </div>
@@ -86,7 +86,7 @@
                                     </div>
                                     <div class="modal-footer bg-transparent border-0">
                                         <button type="submit" class="editCollege btn btn-primary rounded-0 shadow-none">
-                                            {{ __('Save Update College') }}
+                                            {{ __('Save Update University') }}
                                         </button>
                                         </form>
                                     </div>

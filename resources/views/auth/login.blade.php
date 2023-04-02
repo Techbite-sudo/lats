@@ -1,10 +1,10 @@
 @extends('layouts.guest')
 
 @section('content')
-    <div class="container">
+    <div class="container bg-info">
         <div class="row justify-content-center align-items-center" style="height:100vh">
             <div class="col-md-4">
-                <div class="card bg-dark border-0 shadow-lg rounded-0">
+                <div class="card bg-white border-0 shadow-lg rounded-0">
                     <div class="card-header bg-transparent border-0">
                         <div class="col-md-8 m-auto text-center mt-3">
                             <img class="img-fluid" src="{{ asset('assets/img/authentication_re_svpt.svg') }}" alt=""
@@ -47,7 +47,7 @@
                             <div class="row mb-0">
                                 <div class="col-md-10 m-auto">
                                     <button type="submit" class="m-auto d-block btn btn-primary shadow-none rounded-0">
-                                        {{ __('Login System') }}
+                                        {{ __('Login') }}
                                     </button>
                                 </div>
                             </div>

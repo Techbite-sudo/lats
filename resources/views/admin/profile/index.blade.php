@@ -69,7 +69,7 @@
             <div class="col-6">
                 <div class="card border-0 shadow-lg">
                     <div class="card-header border-primary bg-transparent">
-                        <h2 class="lead fs-3 fw-bolder text-primary">Profile Info</h2>
+                        <h2 class="lead fs-3 fw-bolder text-primary">Profile Information</h2>
                     </div>
                     <div class="card-body col-10 m-auto">
                         <div class="col-md-12 m-auto mb-3">

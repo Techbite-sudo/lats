@@ -15,7 +15,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-6">
-                <div class="card border-primary">
+                <div class="card border-primary bg-info">
                     <div class="card-header bg-transparent border-0 fs-2 text-primary lead">{{ __('My Profile') }}</div>
                     <div class="card-body">
                         <form method="POST" action="{{ route('users.store') }}">

@@ -30,9 +30,9 @@
                             <div class="modal fade" id="ExamAddModal" data-bs-backdrop="static" data-bs-keyboard="false"
                                 tabindex="-1" aria-labelledby="ExamAddModalLabel" aria-hidden="true">
                                 <div class="modal-dialog">
-                                    <div class="modal-content">
+                                    <div class="modal-content bg-info">
                                         <div class="modal-header">
-                                            <h5 class="modal-title" id="ExamAddModalLabel">Exam Info</h5>
+                                            <h5 class="modal-title" id="ExamAddModalLabel">Exam Information</h5>
                                         </div>
                                         <div class="modal-body">
                                             <form>
@@ -40,7 +40,7 @@
 
                                                 <div class="row mb-3">
                                                     <div class="col-md-10 m-auto">
-                                                        <small class="fs-6 text-muted">Course Name</small>
+                                                        <small class="fs-6 text-dark">Course Name</small>
                                                         <select name="course_id" id="course_id" size="4"
                                                             class="course_id form-control shadow-none rounded-0">
                                                             @foreach ($course as $cours)
@@ -53,7 +53,7 @@
                                                 </div>
                                                 <div class="row mb-3">
                                                     <div class="col-md-10 m-auto">
-                                                        <small class="fs-6 text-muted">Hall Name</small>
+                                                        <small class="fs-6 text-dark">Hall Name</small>
                                                         <select name="hall_id" id="hall_id" size="4"
                                                             class="hall_id form-control shadow-none rounded-0">
                                                             @foreach ($halls as $hall)
@@ -66,7 +66,7 @@
                                                 </div>
                                                 <div class="row mb-3">
                                                     <div class="col-md-10 m-auto">
-                                                        <small class="fs-6 text-muted">Day Exam</small>
+                                                        <small class="fs-6 text-dark">Day of Exam</small>
                                                         <input id="day" type="date"
                                                             class="day form-control shadow-none rounded-0" name="day"
                                                             value="{{ old('day') }}" required autocomplete="day"
@@ -76,7 +76,7 @@
                                                 </div>
                                                 <div class="row mb-3">
                                                     <div class="col-md-10 m-auto">
-                                                        <small class="fs-6 text-muted">Start Time</small>
+                                                        <small class="fs-6 text-dark">Start Time</small>
                                                         <input id="start" type="time"
                                                             class="start form-control shadow-none rounded-0" name="start"
                                                             value="{{ old('start') }}" required autocomplete="start"
@@ -86,7 +86,7 @@
                                                 </div>
                                                 <div class="row mb-3">
                                                     <div class="col-md-10 m-auto">
-                                                        <small class="fs-6 text-muted">End Time</small>
+                                                        <small class="fs-6 text-dark">End Time</small>
                                                         <input id="end" type="time"
                                                             class="end form-control shadow-none rounded-0" name="end"
                                                             value="{{ old('end') }}" required autocomplete="end"
@@ -100,9 +100,9 @@
                                             <button type="button" class="rounded-0 shadow-none btn btn-danger"
                                                 data-bs-dismiss="modal">Close</button>
                                             <button type="button"
-                                                class="addExam rounded-0 shadow-none btn btn-primary">{{ __('Add New Student') }}</button>
+                                                class="addExam rounded-0 shadow-none btn btn-primary">{{ __('Add New Exam') }}</button>
                                             <button type="button"
-                                                class="updateExam rounded-0 shadow-none btn btn-info">{{ __('Update Student') }}</button>
+                                                class="updateExam rounded-0 shadow-none btn btn-success">{{ __('Update New Exam') }}</button>
                                         </div>
                                     </div>
                                 </div>

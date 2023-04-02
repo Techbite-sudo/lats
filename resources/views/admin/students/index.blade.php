@@ -31,9 +31,9 @@
                                 data-bs-keyboard="false" tabindex="-1" aria-labelledby="StudentAddModalLabel"
                                 aria-hidden="true">
                                 <div class="modal-dialog">
-                                    <div class="modal-content">
+                                    <div class="modal-content bg-info">
                                         <div class="modal-header">
-                                            <h5 class="modal-title" id="StudentAddModalLabel">Student Info</h5>
+                                            <h5 class="modal-title" id="StudentAddModalLabel">Student Information</h5>
                                         </div>
                                         <div class="modal-body">
                                             <form>
@@ -131,7 +131,7 @@
                                             <button type="button"
                                                 class="addStudent rounded-0 shadow-none btn btn-primary">{{ __('Add New Student') }}</button>
                                             <button type="button"
-                                                class="updateStudent rounded-0 shadow-none btn btn-info">{{ __('Update Student') }}</button>
+                                                class="updateStudent rounded-0 shadow-none btn btn-success">{{ __('Update Student') }}</button>
                                         </div>
                                     </div>
                                 </div>

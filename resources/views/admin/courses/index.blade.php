@@ -33,7 +33,7 @@
                                 <div class="modal-dialog">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h5 class="modal-title" id="CoursesAddModalLabel">Courses Info</h5>
+                                            <h5 class="modal-title" id="CoursesAddModalLabel">Courses Information</h5>
                                         </div>
                                         <div class="modal-body">
                                             <form>
@@ -52,7 +52,7 @@
                                                         <input id="hours" type="text"
                                                             class="hours form-control shadow-none rounded-0" name="hours"
                                                             value="{{ old('hours') }}" required autocomplete="hours"
-                                                            autofocus placeholder="hours ...">
+                                                            autofocus placeholder="duration ...">
                                                         <small class="hours_error fs-5 text-danger"></small>
                                                     </div>
                                                 </div>
